@@ -1,0 +1,60 @@
+body{
+    background-color: #ce8483;
+}
+.main {
+    background-color: white;
+    margin: 30px;
+}
+
+.btn-publish{
+    float: right;
+    margin-bottom: 15px;
+}
+
+.media-object{
+    width: 38px;
+    height: 38px;
+}
+.media-body {
+    padding-top: 9px;
+}
+.comment {
+    margin: 15px 0;
+}
+.btn-my{
+    background-color: #67A26B;
+    color: white;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.text-decs{
+    font-size: 12px;
+    font-weight: normal;
+    color: #8c8c8c;
+}
+
+.profile .section {
+    margin-top: 15px;
+}
+
+
+
+.menu {
+    color: #A7BCBD;
+}
+.menu .icon {
+    margin-right: 10px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+
+
+.menu .active {
+    color: #F4D5BB;
+}
+
+.menu .icon:hover{
+    color: #F4D5BB;
+}
