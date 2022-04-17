@@ -31,7 +31,7 @@ public class FileController {
         MultipartHttpServletRequest multipartHttpServletRequest = (MultipartHttpServletRequest) request;
         MultipartFile file = ((MultipartHttpServletRequest) request).getFile("editormd-image-file");
 
-        String originalFilename = UUID.randomUUID().toString()+file.getOriginalFilename();
+        String originalFilename = UUID.randomUUID().toString()+file.getOriginalFilename();//设置文件名
 
         bosProvider.putObjectSimple(originalFilename, file.getInputStream());
 

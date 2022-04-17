@@ -36,9 +36,6 @@ public class IndexController {
         PaginationDTO paginationDTO= questionService.queryAllQuestionForPage(search,page, size);
         model.addAttribute("pagination",paginationDTO);
 
-
-
-
         List<QuestionDTO> popQuestions = questionService.selectPop();
         if (popQuestions.size()>15){
             model.addAttribute("popQuestions", popQuestions.subList(0,15));
@@ -46,12 +43,6 @@ public class IndexController {
         }else {
             model.addAttribute("popQuestions",popQuestions);
         }
-
-
-
-
-
-
 
         Cookie[] cookies = request.getCookies();
         if (cookies != null ){
